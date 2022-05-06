@@ -20,6 +20,7 @@ export default function FilmeCard(props) {
             src={props.capa}
             width="150"
             height="200"
+            alt="capa do filme"
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           />

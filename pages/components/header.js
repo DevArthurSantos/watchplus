@@ -2,16 +2,11 @@ import style from "../../styles/Home.module.css";
 import { FaSearch } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import Input from "./input";
 
 export default function Header() {
   function buscarFilmes(querys) {
     console.log(querys);
-    const router = useRouter();
-    router.push({
-      pathname: `/buscar/${decodeURIComponent(querys)}`,
-    });
   }
   return (
     <div>
@@ -46,6 +41,7 @@ export default function Header() {
             src="/img/profile.png"
             width="30"
             height="30"
+            alt="foto de perfil"
             className={style.headerProfileIMG}
           />
         </div>

@@ -6,7 +6,7 @@ export default function Lancamento() {
     <div className={style.lancamentoContainer}>
       <h2 className={style.lancamentoFilmeTitulo}>LANÇAMENTO</h2>
       <div className={style.lancamentoFilme}>
-        <Image src="/img/profile.png" width="90" height="150" />
+        <Image src="/img/profile.png" width="90" height="150" alt="capa" />
         <div className={style.lancamentoFilmeInfo}>
           <h3 className={style.lancamentoFilmeInfoTitulo}>Titulo</h3>
           <p className={style.lancamentoFilmeInfoParagrafo}>
