@@ -33,7 +33,7 @@ export default function FilmeCard(props) {
             <br />
             Legendas: {props.lang}
             <br />
-            Popularidade: {props.popularidade.toString()}
+            Popularidade: {props.popularidade}
           </p>
           <h3 className={style.filmeCardFilmeInfoTitulo}>{props.titulo}</h3>
         </div>
